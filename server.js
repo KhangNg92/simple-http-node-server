@@ -10,8 +10,6 @@ const requestHandler = (request, response) => {
     }
     return console.log(`File is created`);
   });
-
-  /* visit localhost:3000 in browser and this message will display; additionally, this requestHandler function executes, and the file above will be created in the main directory of this app */
   response.end(`Handling a request on port ${port}`)
 };
 
